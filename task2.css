@@ -45,6 +45,7 @@ form{
     margin-bottom: 25px;
 }
 
+
 /*Styling labels*/
 .component label{
     display: block ;
@@ -80,4 +81,22 @@ margin: 3px 10px auto 67px;
 #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15, #q16, #q17, #q18, #q19, #q20{
     text-align: left ;
     margin: 16px 10px auto 18px ;
+}
+.btn{
+    font-family: 'Yaldevi', sans-serif;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:aquamarine;
+    width: 175px;
+    height: 32px;
+    text-align: center;
+    margin: 17px 38px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    background-color:chocolate;
+    cursor: pointer;
 }
