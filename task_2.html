@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type = " text/css" href="task2.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <!--Let's get started with the headings-->
+        <div class = "heading">
+            <h1 id = "head">ONLY SURVEY FORM</h1>
+            <h2 id = "subhead">Thank you for taking the time to help us improve the user experience</h2>
+        </div>
+        <!--Begin labelling the form-->
+
+        <form class = "main" action="formaction.html">
+
+            <div class = "component" id = a1>
+                <label for ="name">Name: </label>
+                <input type="text"  id = "name" placeholder="Enter your name" class=" box">
+            </div>
+            <div class = "component" id = a2>
+                <label for ="email">Email: </label>
+                <input type="email"  id = "email" placeholder="Enter your email" class=" box">
+            </div>
+            <div class = "component" id = a3>
+                <label for ="age">Age: </label>
+                <input type="number"  id = "age" placeholder="Enter your age" class=" box">
+            </div>
+
+            <!--Now, beginning with the questions-->
+            <div id = "q1">
+                <label for="recommend">1. Will you recommend this college to others? </label>
+                <div id="option1">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options on a scale of 1 to 10</option>
+                        <option value = 10>Very Likely</option>
+                        <option value = 9>9</option>
+                        <option value = 8>8</option>
+                        <option value = 7>7</option>
+                        <option value = 6>6</option>
+                        <option value = 5>5</option>
+                        <option value = 4>4</option>
+                        <option value = 3>3</option>
+                        <option value = 2>2</option>
+                        <option value = 1>1</option>
+                        <option value = 0>Very Unlikely</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q2">
+                <label for="satisfy">2. Are you satisfied with the teaching staff and their teaching methods? </label>
+                <div id="option2">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely satisfied</option>
+                        <option value = 9>Very satisfied</option>
+                        <option value = 8>Satisfied</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>Dissatisified</option>
+                        <option value = 5>Very Dissatisified</option>
+                        <option value = 4>Extremely Dissatisified</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q3">
+                <label for="satisfy">3.How satisfied are you with the facilities provided by the college?</label>
+                <div id="option3">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely satisfied</option>
+                        <option value = 9>Very satisfied</option>
+                        <option value = 8>Satisfied</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>Dissatisified</option>
+                        <option value = 5>Very Dissatisified</option>
+                        <option value = 4>Extremely Dissatisified</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--radio buttons-->
+            <div id = "q4">
+                <label for = "ease">4. Was it easy to obtain the necessary resources from the college library?</label>
+                <div class = "radio1" id = "option4">
+                    <input type="radio" id = "r1"  name = "ease"> Yes
+                    <input type = "radio" id="r2" name = "ease"> No
+                </div>
+            </div>
+
+            <div id = "q5">
+                <label for = "ease2">5. Was it easy to obtain the necessary resources from the college library?</label>
+                <div class = "radio1" id = "option5">
+                    <input type="radio" id = "r3"  name = "ease"> Yes
+                    <input type = "radio" id="r4" name = "ease"> No
+                </div>
+            </div>
+
+            <div id = "q6">
+                <label for="register">6. Do you feel it is easier to register for different courses within the college?</label>
+                <div id="option6">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely satisfied</option>
+                        <option value = 9>Very satisfied</option>
+                        <option value = 8>Satisfied</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>Dissatisified</option>
+                        <option value = 5>Very Dissatisified</option>
+                        <option value = 4>Extremely Dissatisified</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q7">
+                <label for="clean">7. How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</label>
+                <div id="option7">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely satisfied</option>
+                        <option value = 9>Very satisfied</option>
+                        <option value = 8>Satisfied</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>Dissatisified</option>
+                        <option value = 5>Very Dissatisified</option>
+                        <option value = 4>Extremely Dissatisified</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q8">
+                <label for="support">8. How supportive were the faculty members?</label>
+                <div id="option8">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely supportive</option>
+                        <option value = 9>Very supportive</option>
+                        <option value = 8>supportive</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>unsupportive</option>
+                        <option value = 5>Very unsupportive</option>
+                        <option value = 4>Extremely unsupportive</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q9">
+                <label for="hostel">9. What do you think of the hostel?</label>
+                <div id="option9">
+                    <select>
+                        <option name = "Scale 1 to 10">Select the crowd space</option>
+                        <option value = 10>Extremely crowded</option>
+                        <option value = 9>Very crowded</option>
+                        <option value = 8>Somewhat crowded</option>
+                        <option value = 7>Not so crowded</option>
+                        <option value = 6>Not at all crowded</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q10">
+                <label for = "satisfy2">10. Are you satisfied with the teaching staff and their teaching practices?</label>
+                <div class = "radio1" id = "option10">
+                    <input type="radio" id = "r5"  name = "satisfy2"> Yes
+                    <input type = "radio" id="r6" name = "satisfy2"> No
+                </div>
+            </div>
+
+            <div id = "q11">
+                <label for="help">11. Do you think faculty and support staff at the college were helpful?</label>
+                <div id="option11">
+                    <select>
+                        <option name = "Scale 1 to 10">Select among these</option>
+                        <option value = 9>Very helpful</option>
+                        <option value = 8>Helpful</option>
+                        <option value = 7>Neither helpful nor unhelpful</option>
+                        <option value = 6>Unhelpful</option>
+                        <option value = 5>Very unhelpful</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q12">
+                <label for="continue">12. How likely are you to continue attending this college next year?</label>
+                <div id="option12">
+                    <select>
+                        <option name = "Scale 1 to 10">Select among these</option>
+                        <option value = 9>Extremely likely</option>
+                        <option value = 8>Very likely</option>
+                        <option value = 7>Somewhat likely</option>
+                        <option value = 6>Not so likely</option>
+                        <option value = 5>Not at all likely</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q13">
+                <label for="accomodate">13. How satisfied are you with the accommodation?</label>
+                <div id="option13">
+                    <select>
+                        <option name = "Scale 1 to 10">Choose your options</option>
+                        <option value = 10>Extremely satisfied</option>
+                        <option value = 9>Very satisfied</option>
+                        <option value = 8>Satisfied</option>
+                        <option value = 7>Neutral</option>
+                        <option value = 6>Dissatisified</option>
+                        <option value = 5>Very Dissatisified</option>
+                        <option value = 4>Extremely Dissatisified</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q14">
+                <label for="chance">14. Given a chance, are you willing to pursue another course at the college?</label>
+                <div id="option14">
+                    <select>
+                        <option name = "Scale 1 to 10">Make a choice</option>
+                        <option value = 10>Definitely, Yes</option>
+                        <option value = 9>Probably, Yes</option>
+                        <option value = 8>Probably, No</option>
+                        <option value = 7>Definitely, No</option>
+                        <option value = 6>Can't Say</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q15">
+                <label for="siblings">15. Do you think your siblings or friends will be benefited by studying at this college?</label>
+                <div id="option15">
+                    <select>
+                        <option name = "Scale 1 to 10">Make a choice</option>
+                        <option value = 10>Definitely, Yes</option>
+                        <option value = 9>Probably, Yes</option>
+                        <option value = 8>Probably, No</option>
+                        <option value = 7>Definitely, No</option>
+                        <option value = 6>Can't Say</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id = "q16">
+                <label for="work">16. How many hours a week do you work your part-time job?</label>
+                <div id="option16" class="radio">
+                    <input type="radio" > I don't have a job <br>
+                    <input type = "radio" >1-10 hours a week<br>
+                    <input type = "radio" >11-15 hours a week<br>
+                    <input type = "radio" >16-20 hours a week<br>
+                    <input type = "radio" >More than 20 hours a week<br>
+                </div>
+            </div>
+
+            <div id = "q17">
+                <label for="overall">17. How about your overall experience with this college?</label>
+                <div id="option17" class = "radio">
+                    <input type="radio"> I don't have a job <br>
+                    <input type = "radio">No, I manage them both well<br>
+                    <input type = "radio" >Yes, but rarely<br>
+                    <input type = "radio" >Yes, often<br>
+                    <input type = "radio" >Yes, always<br>
+                </div>
+            </div>
+
+            <div id = "q18">
+                <label for="activities">18. What do you think about extracurricular activities?</label>
+                <div id="option18" class = "radio">
+                    <input type="radio"> They are too few <br>
+                    <input type = "radio">They are just right<br>
+                    <input type = "radio" >I was overwhelmed with the number<br>
+                </div>
+            </div>
+
+            <div id = "q19">
+                <label for="measures">19. Do you think that the college takes enough measures to curb racial and ethnic bias?</label>
+                <div id="option19">
+                    <select>
+                        <option name = "Scale 1 to 10">Make a choice</option>
+                        <option value = 10>Definitely, Yes</option>
+                        <option value = 9>Probably, Yes</option>
+                        <option value = 8>Probably, No</option>
+                        <option value = 7>Definitely, No</option>
+                        <option value = 6>Can't Say</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--creating text box for comment-->
+            <div id = "q20">
+                <label for="comment">20. Please provide us with additional feedback on areas that need improvement</label><br>
+                <textarea name="comment" id="comment" placeholder="Enter your thoughts here">
+                </textarea>
+            </div>
+
+        </form>
+
+    </body>
+</html>

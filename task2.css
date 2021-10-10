@@ -1,0 +1,83 @@
+body{
+    background-color: cornflowerblue;
+    background-image: url(https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_84148409freejpg850.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    width : 100% ;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#subhead{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkslateblue;
+    margin-top: 10px;
+}
+
+form{
+    background-color:rgb(108, 183, 185);
+    padding-top: 30px 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin:  50px auto;
+    margin-top: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Styling class components*/
+.component{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/*Styling labels*/
+.component label{
+    display: block ;
+    margin-bottom: 10px;
+    margin-left: 18px ;
+}
+
+/*Styling the control input, select tag and text area*/
+.component input, .component select, .component textarea{
+
+border: 1px solid cornflowerblue;
+border-radius: 2px;
+font-family:Arial, Helvetica, sans-serif;
+padding: 10px ;
+display: block;
+width: 45%;
+height : 10px;
+align-content: space-around;
+margin: 3px 10px auto 67px;
+}
+
+/*Styling radio buttons and checkbox*/
+.component input[type = "radio"]{
+    display:inline-block;
+    width: auto ;
+    text-align: center;
+}
+
+.main label{
+    text-align: left;
+}
+
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15, #q16, #q17, #q18, #q19, #q20{
+    text-align: left ;
+    margin: 16px 10px auto 18px ;
+}
